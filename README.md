@@ -1,5 +1,15 @@
 # 更新 basicsr, 支持新版本 Real-ESRGAN
 
+```
+需要安装
+https://github.com/xinntao/Real-ESRGAN
+
+# Commits on Apr 2, 2024
+git checkout a4abfb2979a7bbff3f69f58f58ae324608821e27
+
+python basicsr/setup.py bdist_wheel
+```
+
 <p align="center">
   <img src="assets/CodeFormer_logo.png" height=110>
 </p>
