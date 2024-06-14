@@ -151,8 +151,8 @@ class VGGFeatureExtractor(nn.Module):
             x = (x + 1) / 2
         if self.use_input_norm:
             x = (x - self.mean) / self.std
-        output = {}
 
+        output = {}
         for key, layer in self.vgg_net._modules.items():
             x = layer(x)
             if key in self.layer_name_list:
